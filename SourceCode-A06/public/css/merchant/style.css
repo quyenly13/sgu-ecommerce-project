@@ -1,0 +1,16 @@
+.radio-group label {
+    overflow: hidden;
+ } .radio-group input {
+     /* This is on purpose for accessibility. Using display: hidden is evil.
+     This makes things keyboard friendly right out tha box! */
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    top: -20px;
+ } .radio-group .not-active  {
+    color: #3276b1;
+    background-color: #fff;
+ }
+ .goitin{
+     cursor: pointer;
+ }

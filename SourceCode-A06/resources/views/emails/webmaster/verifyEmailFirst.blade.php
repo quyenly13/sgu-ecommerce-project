@@ -1,0 +1,1 @@
+<h1>Xác nhận qua email</h1>
